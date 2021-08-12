@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS Property (
+    Id SERIAL PRIMARY KEY,
+    Name VARCHAR(60) UNIQUE NOT NULL,
+    ValueType INT NOT NULL,
+    Value VARCHAR(2048) NOT NULL,
+    Status INT NOT NULL,
+    IsDeleted BOOLEAN NOT NULL,
+    CreationDate TIMESTAMP NOT NULL,
+    LastModifiedDate TIMESTAMP NOT NULL
+);

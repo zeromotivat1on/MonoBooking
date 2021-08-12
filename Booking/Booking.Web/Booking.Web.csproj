@@ -1,0 +1,134 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+    <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
+    <IsPackable>false</IsPackable>
+    <SpaRoot>ClientApp\</SpaRoot>
+    <DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules\**</DefaultItemExcludes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ClientApp\src\common\interfaces\ICreateCategory.ts" />
+    <None Remove="ClientApp\src\pages\CreateCategoryPage\CreateCategory.tsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="5.0.7" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0-preview.6.21352.12" />
+    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="4.3.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Serilog.Extensions.Logging.File" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Don't publish the SPA source files, but do show them in the project files list -->
+    <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Booking.Web\ClientApp\.env" />
+    <None Include="..\Booking.Web\ClientApp\.gitignore" />
+    <None Include="..\Booking.Web\ClientApp\package-lock.json" />
+    <None Include="..\Booking.Web\ClientApp\package.json" />
+    <None Include="..\Booking.Web\ClientApp\public\favicon.ico" />
+    <None Include="..\Booking.Web\ClientApp\public\index.html" />
+    <None Include="..\Booking.Web\ClientApp\public\manifest.json" />
+    <None Include="..\Booking.Web\ClientApp\README.md" />
+    <None Include="..\Booking.Web\ClientApp\src\App.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\ButtonComponent\Button.css" />
+    <None Include="..\Booking.Web\ClientApp\src\components\ButtonComponent\Button.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\FooterComponent\Footer.css" />
+    <None Include="..\Booking.Web\ClientApp\src\components\FooterComponent\Footer.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\FullLogoComponent\FullLogo.css" />
+    <None Include="..\Booking.Web\ClientApp\src\components\FullLogoComponent\FullLogo.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\HeaderComponent\Header.css" />
+    <None Include="..\Booking.Web\ClientApp\src\components\HeaderComponent\Header.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\HeaderMenuComponent\HeaderMenu.css" />
+    <None Include="..\Booking.Web\ClientApp\src\components\HeaderMenuComponent\HeaderMenu.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\IconComponents\ButtonIconComponents\AboutUsIcon.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\IconComponents\ButtonIconComponents\BookingsIcon.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\IconComponents\ButtonIconComponents\CatalogIcon.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\IconComponents\ButtonIconComponents\CloseHeaderMenuIcon.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\IconComponents\ButtonIconComponents\CompaniesIcon.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\IconComponents\ButtonIconComponents\FilterIcon.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\IconComponents\ButtonIconComponents\HeaderMenuIcon.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\IconComponents\ButtonIconComponents\ProfileIcon.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\IconComponents\ButtonIconComponents\SearchIcon.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\IconComponents\ButtonIconComponents\SignOutIcon.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\IconComponents\ButtonIconComponents\UsersIcon.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\IconComponents\LogoIconComponents\LogoIconComponent.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\IconComponents\LogoIconComponents\LogoTextIconComponent.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\IconComponents\SocialIconComponents\FacebookIconComponent.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\IconComponents\SocialIconComponents\GithubIconComponent.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\IconComponents\SocialIconComponents\InstagramIconComponent.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\IconComponents\SocialIconComponents\TwitterIconComponent.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\IconComponents\SocialIconComponents\YoutubeIconComponent.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\IconComponents\UtilityIconComponents\CopyrightIconComponent.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\LayoutComponent\Layout.css" />
+    <None Include="..\Booking.Web\ClientApp\src\components\LayoutComponent\Layout.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\SocialWidgetComponent\SocialWidget.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\components\TextInputComponent\TextInput.css" />
+    <None Include="..\Booking.Web\ClientApp\src\components\TextInputComponent\TextInput.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\defaults.css" />
+    <None Include="..\Booking.Web\ClientApp\src\exports\buttons.ts" />
+    <None Include="..\Booking.Web\ClientApp\src\exports\socialLinks.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\exports\windowModifications.ts" />
+    <None Include="..\Booking.Web\ClientApp\src\index.js" />
+    <None Include="..\Booking.Web\ClientApp\src\initial.css" />
+    <None Include="..\Booking.Web\ClientApp\src\interfaces\IDefIcon.ts" />
+    <None Include="..\Booking.Web\ClientApp\src\interfaces\ISocialLink.ts" />
+    <None Include="..\Booking.Web\ClientApp\src\pages\CreateOfferPage\CreateOffer.css" />
+    <None Include="..\Booking.Web\ClientApp\src\pages\CreateOfferPage\CreateOffer.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\pages\WelcomePage\Welcome.css" />
+    <None Include="..\Booking.Web\ClientApp\src\pages\WelcomePage\Welcome.tsx" />
+    <None Include="..\Booking.Web\ClientApp\src\react-app-env.d.ts" />
+    <None Include="..\Booking.Web\ClientApp\src\registerServiceWorker.js" />
+    <None Include="..\Booking.Web\ClientApp\tsconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Booking.BusinessLogic\Booking.BusinessLogic.csproj" />
+    <ProjectReference Include="..\Booking.Core\Booking.Core.csproj" />
+    <ProjectReference Include="..\Booking.DataAccess\Booking.DataAccess.csproj" />
+    <ProjectReference Include="..\Booking.Core\Booking.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\src\common\interfaces\ICreateCategory.ts" />
+    <TypeScriptCompile Include="ClientApp\src\pages\CreateCategoryPage\CreateCategory.tsx" />
+  </ItemGroup>
+
+  <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
+    <!-- Ensure Node.js is installed -->
+    <Exec Command="node --version" ContinueOnError="true">
+      <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
+    </Exec>
+    <Error Condition="'$(ErrorCode)' != '0'" Text="Node.js is required to build and run this project. To continue, please install Node.js from https://nodejs.org/, and then restart your command prompt or IDE." />
+    <Message Importance="high" Text="Restoring dependencies using 'npm'. This may take several minutes..." />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+  </Target>
+
+  <Target Name="PublishRunWebpack" AfterTargets="ComputeFilesToPublish">
+    <!-- As part of publishing, ensure the JS resources are freshly built in production mode -->
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build" />
+
+    <!-- Include the newly-built files in the publish output -->
+    <ItemGroup>
+      <DistFiles Include="$(SpaRoot)build\**" />
+      <ResolvedFileToPublish Include="@(DistFiles->'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+        <RelativePath>%(DistFiles.Identity)</RelativePath>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      </ResolvedFileToPublish>
+    </ItemGroup>
+  </Target>
+
+  <ProjectExtensions><VisualStudio><UserProperties properties_4launchsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>

@@ -1,0 +1,47 @@
+.full-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.full-logo .def-logo,
+.full-logo .def-logo {
+  padding: 0 0.2em;
+}
+
+/* Classes that are set to logo and logo-text by default */
+.def-logo {
+  --w: clamp(5em, 10vw, 5em);
+  
+  width: var(--w);
+	height: var(--w);
+}
+.def-logo-text {
+	--w: clamp(7.5em, 15vw, 7.5em);
+
+	width: var(--w);
+	height: fit-content;
+}
+
+/* Applied for logo in Header */
+.header-logo {
+  --w: 4em;
+
+	width: var(--w);
+	height: var(--w);
+}
+.header-logo-text {
+  --w: 6em;
+
+	width: var(--w);
+	height: fit-content;
+}
+
+/* Applied for logo in Footer */
+.footer-logo {
+  --w: 4em;
+
+  width: var(--w);
+  height: var(--w);
+}

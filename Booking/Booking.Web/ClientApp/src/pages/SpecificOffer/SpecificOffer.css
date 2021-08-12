@@ -1,0 +1,148 @@
+#specific-offer{
+    background-color: var(--clr-def-white);
+    margin: 5vw auto;
+}
+
+body{
+    background-color: var(--clr-def-white);
+}
+
+
+.main-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: clamp(200px, 90%, 1000px);
+
+    border-radius: 5px;
+}
+
+.offer-info{
+    display: flex;
+    width: 100%;
+    margin-bottom: 2vw;
+    gap: 2vw;
+}
+
+.offer-image{
+    width: clamp(15vw, 20vw, 200px);
+    height: clamp(15vw, 20vw, 200px);
+    border-radius: 5px;
+}
+
+.offer-info-heading{
+    font-size: clamp(0.8em, 1.5vw, 1em);
+}
+
+.offer-tags{
+    margin-left: auto;
+    width: 30vw;
+    border-radius: 5px;
+}
+
+.offer-tags ul li{
+    display: inline-block;
+    padding: 4px 8px;
+    margin: 1vw 1vw 0 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: var(--clr-def-black);
+    background-color: var(--clr-def-white);
+    font-size: clamp(0.6em, 1.5vw, 1em);
+}
+
+.offer-tags a{
+    /* float: right; */
+    margin-right: 1vw;
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+
+.offerDescription{
+    width: 100%;
+    background-color: var(--clr-def-black);
+    border-radius: 5px;
+    font-size: clamp(1em, 1.5vw, 1.5em);
+}
+
+.offerDescription h3{
+    color: white;
+    margin: 2vw 2vw 0;
+}
+
+.offerDescription p{
+    color: var(--clr-def-lightgray);
+    margin: 1vw 2vw 2vw;
+}
+
+.button-block{
+    display: flex;
+    width: 100%;
+    padding: 1vw 0vw;
+    font-size: clamp(0.8em, 1.5vw, 1em);
+}
+
+.button-block Button{
+    border-radius: 5px;
+    margin-left: auto;
+    padding: 7px 15px;
+}
+
+.dark-btn{
+    display: flex;
+    flex-direction: row;
+}
+
+.dark-btn Button{
+    color: var(--clr-def-white);
+    background-color: var(--clr-def-black);
+    margin-right: 2vw;
+    max-width: 200px;
+    gap: 2vw;
+}
+
+
+@media screen and (max-width: 540px) {
+
+    .offer-info{
+        flex-direction: column;
+    }
+    .offer-info *{
+        width: auto;
+        height: auto;
+        margin-left: 0;
+    }
+    .offer-image{
+        width: 100%;
+        height: 60vw;
+    }
+
+    .offer-tags a{
+        float: left;
+    }
+
+    .button-block{
+        display: block;
+        font-size: 1em;
+    }
+    .button-block Button{
+        letter-spacing: 0;
+        width: 100%;
+        margin: 1vw 0;
+        padding: clamp(0px, 0.5em, 1em);
+    }
+    .dark-btn{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .dark-btn Button{
+        max-width: 1000px;
+    }
+  }
+
+
+  .padding-for-nav{
+    padding-top: 50px;
+  }

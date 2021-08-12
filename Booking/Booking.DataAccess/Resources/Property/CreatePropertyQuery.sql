@@ -1,0 +1,1 @@
+﻿SELECT InsertProperty(@Name, @ValueType, @Value, @Status, @IsDeleted, @CreationDate, @LastModifiedDate);

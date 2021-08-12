@@ -1,0 +1,6 @@
+#company-all-page {
+  align-items: center;
+  justify-content: center;
+  padding-top: clamp(7em, calc(var(--header-font-size) * 5), 20em);
+  padding-bottom: clamp(2em, calc(var(--header-font-size) * 5), 3em);
+}

@@ -1,0 +1,28 @@
+#create-offer-page {
+    align-items: center;
+    justify-content: center;
+}
+
+#create-offer-form {
+    width: clamp(15em, 60vw, 50em);
+}
+
+.label-field {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+}
+
+.label-field label {
+    color: black;
+    padding-bottom: 0.5em;
+}
+
+.image-input {
+    width: 100%;   
+}
+
+.yup-error {
+    color: red;
+    font-size: 1em;
+}

@@ -1,0 +1,23 @@
+#offer-profile-page {
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-btn {
+  width: fit-content;
+  height: fit-content;
+  padding: 1em;
+  background-color: var(--clr-def-lightred);
+  color: var(--clr-def-black)
+}
+.offer-btn:hover {
+  background-color: rgb(255, 40, 40);
+  color: var(--clr-def-white);
+}
+
+.offer-profile-table-box {
+  padding: 1em;
+  box-shadow: 0 0 0.5em 0 rgba(0, 0, 0, 0.4);
+  border-radius: 0.5em;
+  width: 90%;
+}

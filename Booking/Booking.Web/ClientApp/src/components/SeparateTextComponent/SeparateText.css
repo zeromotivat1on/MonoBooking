@@ -1,0 +1,33 @@
+.separate-text-box {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin: 0.5em 0;
+  z-index: 10;
+}
+.separate-text {
+  --font-size: 1.1em;
+  font-size: var(--font-size);
+  padding: 0 0.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  font-weight: bold;
+  background-color: var(--clr-def-white);
+  color: var(--clr-def-black);
+}
+.separate-text::after {
+  --h: 0.2em;
+  content: "";
+  transform-origin: 50% 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateY(calc(var(--font-size) / 2));
+  background-color: var(--clr-def-black);
+  height: var(--h);
+  border-radius: 1em;
+  width: 100%;
+  z-index: -1;
+}

@@ -1,0 +1,79 @@
+/* Classes that are set to input-container and input itself by default */
+.def-input-container {
+  width: clamp(5em, 50%, 40em);
+  position: relative;
+}
+
+.def-input {
+  position: relative;
+  background-color: inherit;
+  resize: none;
+}
+.def-input,
+.def-input:focus,
+.def-input:active {
+  width: 100%;
+  outline: none;
+  border: none;
+}
+.def-input::placeholder {
+  color: var(--clr-def-black);
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+.def-textarea {
+  resize: none;
+}
+.def-textarea::-webkit-scrollbar {
+  width: var(--scroll-w);
+}
+.def-textarea::-webkit-scrollbar-track {
+  background-color: var(--clr-def-white);
+}
+.def-textarea::-webkit-scrollbar-thumb {
+  background-color: var(--clr-def-black);
+  border: var(--scroll-border-w) solid var(--clr-def-white);
+  border-radius: 1em;
+}
+
+.def-label {
+  position: absolute;
+  background-color: var(--clr-def-white);
+  padding: 0 0.5em;
+  /* you need to rewrite calc logic for other padding */
+  top: calc(-0.8 * var(--rounded-input-padding)); 
+  left: 0.5em;
+}
+
+/* Input container from Header (Search) */
+.header-input-container {
+  width: 25em;
+  margin: 0 2em;
+}
+
+.header-input-container::after {
+  content: "";
+  position: absolute;
+  top: 2em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 0.05em;
+  background-color: var(--clr-def-black);
+}
+
+/* Rounded input container used in all forms except for Login, Registration and Search Input */
+.rounded-input-container {
+  --rounded-input-padding: 1em;
+
+  width: clamp(22em, 50vw, 40em);
+  border: 0.08em solid var(--clr-def-black);
+  border-radius: var(--rounded-input-border-radius);
+  padding: var(--rounded-input-padding);
+}
+
+.price-input {
+  padding: 0 1.5em;
+  width: 100%;
+}

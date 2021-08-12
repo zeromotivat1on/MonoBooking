@@ -1,0 +1,1 @@
+﻿SELECT InsertCategory(@Title, @Description, @CreatedAt, @IsDeleted);

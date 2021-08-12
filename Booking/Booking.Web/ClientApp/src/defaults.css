@@ -1,0 +1,58 @@
+ul, li {
+  list-style: none;
+	margin: 0;
+}
+
+button, button:active, button:focus {
+	outline: none;
+}
+
+a, a:hover, a:active, a:checked, a:focus {
+  cursor: pointer;
+  color: currentColor;
+  text-decoration: none;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+label {
+	margin: 0;
+}
+
+.def-page {
+  display: flex;
+  flex-direction: column;
+  max-width: 100vw;
+	min-height: 100vh;
+}
+.def-link {
+	position: relative;
+	transition: color var(--animation-def-time) ease-in-out;
+}
+.def-link:hover {
+	color: var(--clr-def-gray);
+}
+.def-link::after {
+	content: "";
+	position: absolute;
+	top: 1.5em;
+	transform-origin: 0 50%;
+	transform: scaleX(0);
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 0.1em;
+	background-color: var(--clr-def-gray);
+
+	transition: transform var(--animation-def-time) ease-in-out;
+}
+.def-link:hover::after {
+	transform: scaleX(1);
+}

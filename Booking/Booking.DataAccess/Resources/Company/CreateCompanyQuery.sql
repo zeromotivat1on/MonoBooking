@@ -1,0 +1,1 @@
+SELECT InsertCompany(@Name, @Description, @DaysOnSite, @Owner, @Status, @FoundationDate, @Deleted, @LastModifiedDate);

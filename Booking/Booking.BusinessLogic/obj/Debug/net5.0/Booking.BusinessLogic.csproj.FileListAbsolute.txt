@@ -1,0 +1,17 @@
+C:\Users\Xiaomi\Desktop\practice-june-2021\Booking\Booking.BusinessLogic\bin\Debug\net5.0\Booking.BusinessLogic.deps.json
+C:\Users\Xiaomi\Desktop\practice-june-2021\Booking\Booking.BusinessLogic\bin\Debug\net5.0\Booking.BusinessLogic.dll
+C:\Users\Xiaomi\Desktop\practice-june-2021\Booking\Booking.BusinessLogic\bin\Debug\net5.0\ref\Booking.BusinessLogic.dll
+C:\Users\Xiaomi\Desktop\practice-june-2021\Booking\Booking.BusinessLogic\bin\Debug\net5.0\Booking.BusinessLogic.pdb
+C:\Users\Xiaomi\Desktop\practice-june-2021\Booking\Booking.BusinessLogic\bin\Debug\net5.0\Booking.Core.dll
+C:\Users\Xiaomi\Desktop\practice-june-2021\Booking\Booking.BusinessLogic\bin\Debug\net5.0\Booking.Core.pdb
+C:\Users\Xiaomi\Desktop\practice-june-2021\Booking\Booking.BusinessLogic\obj\Debug\net5.0\Booking.BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\Xiaomi\Desktop\practice-june-2021\Booking\Booking.BusinessLogic\obj\Debug\net5.0\Booking.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xiaomi\Desktop\practice-june-2021\Booking\Booking.BusinessLogic\obj\Debug\net5.0\Booking.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\Xiaomi\Desktop\practice-june-2021\Booking\Booking.BusinessLogic\obj\Debug\net5.0\Booking.BusinessLogic.AssemblyInfo.cs
+C:\Users\Xiaomi\Desktop\practice-june-2021\Booking\Booking.BusinessLogic\obj\Debug\net5.0\Booking.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Xiaomi\Desktop\practice-june-2021\Booking\Booking.BusinessLogic\obj\Debug\net5.0\Booking.BusinessLogic.csproj.CopyComplete
+C:\Users\Xiaomi\Desktop\practice-june-2021\Booking\Booking.BusinessLogic\obj\Debug\net5.0\Booking.BusinessLogic.dll
+C:\Users\Xiaomi\Desktop\practice-june-2021\Booking\Booking.BusinessLogic\obj\Debug\net5.0\ref\Booking.BusinessLogic.dll
+C:\Users\Xiaomi\Desktop\practice-june-2021\Booking\Booking.BusinessLogic\obj\Debug\net5.0\Booking.BusinessLogic.pdb
+C:\Users\Xiaomi\Desktop\practice-june-2021\Booking\Booking.BusinessLogic\bin\Debug\net5.0\Booking.DataAccess.dll
+C:\Users\Xiaomi\Desktop\practice-june-2021\Booking\Booking.BusinessLogic\bin\Debug\net5.0\Booking.DataAccess.pdb

@@ -1,0 +1,42 @@
+#create-company-page {
+  align-items: center;
+  justify-content: center;
+  padding-top: clamp(7em, calc(var(--header-font-size) * 5), 20em);
+  padding-bottom: clamp(2em, calc(var(--header-font-size) * 5), 3em);
+}
+#create-company-form {
+  width: clamp(15em, 60vw, 50em);
+}
+#create-company-form > * {
+  padding: 0.5em 0;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.error {
+  box-shadow: 0 0 0 0.1em red;
+}
+
+.locked {
+  pointer-events: none;
+  user-select: none;
+  opacity: 0.5;
+}
+
+.final-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#submit {
+  background-color: var(--clr-def-lightgreen);
+  color: var(--clr-def-black);
+}
+
+#reset {
+  background-color: var(--clr-def-lightred);
+  color: var(--clr-def-black);
+}

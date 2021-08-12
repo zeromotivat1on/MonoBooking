@@ -1,0 +1,10 @@
+CREATE OR REPLACE FUNCTION DeleteOffer(offerId INT)
+    RETURNS BOOLEAN
+LANGUAGE plpgsql VOLATILE
+AS $$
+BEGIN
+    DELETE FROM Offer
+    WHERE Offer.Id = offerId;
+
+    RETURN FOUND;
+END $$;

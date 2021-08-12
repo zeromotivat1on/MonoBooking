@@ -1,0 +1,257 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Xiaomi\\Desktop\\practice-june-2021\\Booking\\Booking.Core\\Booking.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Xiaomi\\Desktop\\practice-june-2021\\Booking\\Booking.BusinessLogic\\Booking.BusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Xiaomi\\Desktop\\practice-june-2021\\Booking\\Booking.BusinessLogic\\Booking.BusinessLogic.csproj",
+        "projectName": "Booking.BusinessLogic",
+        "projectPath": "C:\\Users\\Xiaomi\\Desktop\\practice-june-2021\\Booking\\Booking.BusinessLogic\\Booking.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\Xiaomi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Xiaomi\\Desktop\\practice-june-2021\\Booking\\Booking.BusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Xiaomi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Xiaomi\\Desktop\\practice-june-2021\\Booking\\Booking.Core\\Booking.Core.csproj": {
+                "projectPath": "C:\\Users\\Xiaomi\\Desktop\\practice-june-2021\\Booking\\Booking.Core\\Booking.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Xiaomi\\Desktop\\practice-june-2021\\Booking\\Booking.Core\\Booking.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Xiaomi\\Desktop\\practice-june-2021\\Booking\\Booking.Core\\Booking.csproj",
+        "projectName": "Booking",
+        "projectPath": "C:\\Users\\Xiaomi\\Desktop\\practice-june-2021\\Booking\\Booking.Core\\Booking.csproj",
+        "packagesPath": "C:\\Users\\Xiaomi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Xiaomi\\Desktop\\practice-june-2021\\Booking\\Booking.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Xiaomi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Xiaomi\\Desktop\\practice-june-2021\\Booking\\Booking.DataAccess\\Booking.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Xiaomi\\Desktop\\practice-june-2021\\Booking\\Booking.DataAccess\\Booking.DataAccess.csproj"
+              },
+              "C:\\Users\\Xiaomi\\Desktop\\practice-june-2021\\Booking\\Booking.Web\\Booking.Web.csproj": {
+                "projectPath": "C:\\Users\\Xiaomi\\Desktop\\practice-june-2021\\Booking\\Booking.Web\\Booking.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Xiaomi\\Desktop\\practice-june-2021\\Booking\\Booking.DataAccess\\Booking.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Xiaomi\\Desktop\\practice-june-2021\\Booking\\Booking.DataAccess\\Booking.DataAccess.csproj",
+        "projectName": "Booking.DataAccess",
+        "projectPath": "C:\\Users\\Xiaomi\\Desktop\\practice-june-2021\\Booking\\Booking.DataAccess\\Booking.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Xiaomi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Xiaomi\\Desktop\\practice-june-2021\\Booking\\Booking.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Xiaomi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Xiaomi\\Desktop\\practice-june-2021\\Booking\\Booking.Web\\Booking.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Xiaomi\\Desktop\\practice-june-2021\\Booking\\Booking.Web\\Booking.Web.csproj",
+        "projectName": "Booking.Web",
+        "projectPath": "C:\\Users\\Xiaomi\\Desktop\\practice-june-2021\\Booking\\Booking.Web\\Booking.Web.csproj",
+        "packagesPath": "C:\\Users\\Xiaomi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Xiaomi\\Desktop\\practice-june-2021\\Booking\\Booking.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Xiaomi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Xiaomi\\Desktop\\practice-june-2021\\Booking\\Booking.BusinessLogic\\Booking.BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\Xiaomi\\Desktop\\practice-june-2021\\Booking\\Booking.BusinessLogic\\Booking.BusinessLogic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

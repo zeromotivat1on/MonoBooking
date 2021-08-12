@@ -1,0 +1,1 @@
+SELECT * FROM UpdateCompany(@Id, @Name, @Description, @DaysOnSite, @Owner, @Status, @FoundationDate, @Deleted, @LastModifiedDate);

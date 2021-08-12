@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "zIhGU0pOw0s+ncCrE/K8kWUANe1OUz1cdfmfgfpSo8bWrxLbfxSXuUvanR31Jh4pUKmMCvQPNz5jkSZ3PPJG2g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Xiaomi\\Desktop\\practice-june-2021\\Booking\\Booking.DataAccess\\Booking.DataAccess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Xiaomi\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
+    "C:\\Users\\Xiaomi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Xiaomi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Xiaomi\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\Xiaomi\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\Xiaomi\\.nuget\\packages\\npgsql\\6.0.0-preview5\\npgsql.6.0.0-preview5.nupkg.sha512",
+    "C:\\Users\\Xiaomi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

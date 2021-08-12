@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS Offer (
+    Id SERIAL PRIMARY KEY,
+    Description TEXT NOT NULL,
+    Status INT NOT NULL,
+    Title VARCHAR(60) NOT NULL,
+    SlotPrice DECIMAL(8,2) NOT NULL,
+    SlotTime TIME NOT NULL,
+    Image TEXT NOT NULL,
+    Mark DECIMAL(4,2) NOT NULL
+);

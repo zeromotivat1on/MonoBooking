@@ -1,0 +1,48 @@
+.header-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  --w: min(60vw, 20em);
+  position: fixed;
+  top: 0;
+
+  height: 100vh;
+  width: var(--w);
+  background-color: var(--clr-def-black);
+  border-left: 0.1em solid var(--clr-def-white);
+  border-radius: 0.1em 0 0 0.1em;
+  transform: translateX(100vw);
+  padding: 1em 0;
+  z-index: 100;
+  animation: appear 0.5s ease-in-out forwards;
+}
+
+@keyframes appear {
+  100% {
+    transform: translateX(calc(100vw - var(--w)));
+  }
+}
+
+.top-menu-part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-menu-service-name {
+  display: flex;
+  align-items: center;
+  font-size: clamp(0.7em, 3.5vw, 1em);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--clr-def-white);
+  margin: 0;
+  padding: 1em;
+}
+
+.buttons-from-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}

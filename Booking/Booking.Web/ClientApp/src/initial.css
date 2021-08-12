@@ -1,0 +1,46 @@
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+	font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  /* Main colors */
+  --clr-def-black: rgb(27, 27, 27);
+  --clr-def-white: rgb(245, 245, 245);
+  /* Additional colors */
+  --clr-def-lightgray: rgb(177, 177, 177);
+  --clr-def-gray: rgb(143, 143, 143);
+  --clr-def-darkgray: rgb(64, 64, 64);
+  /* Accent colors */
+  --clr-def-lightgreen: rgb(192, 255, 218);
+  --clr-def-lightblue: rgb(192, 235, 255);
+  --clr-def-lightred: rgb(255, 192, 192);
+  --clr-def-lightyellow: rgb(255, 249, 192);
+
+  --animation-def-time: 0.2s;
+
+  --scroll-w: 0.8em;
+  --scroll-border-w: 0.3em;
+
+  --header-font-size: clamp(0.8em, 1.5vw, 1em);
+}
+
+body::-webkit-scrollbar {
+  width: var(--scroll-w);
+}
+ 
+body::-webkit-scrollbar-track {
+  background-color: var(--clr-def-black);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: var(--clr-def-white);
+  border: var(--scroll-border-w) solid var(--clr-def-black);
+  border-radius: 1em;
+}

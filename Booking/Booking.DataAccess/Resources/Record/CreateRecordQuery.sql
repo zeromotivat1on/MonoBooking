@@ -1,0 +1,1 @@
+﻿SELECT InsertRecord(@Date, @Status, @Deleted, @CreatedDate, @LastModifiedDate);

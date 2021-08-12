@@ -1,0 +1,170 @@
+/* Default class for button */
+.def-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	font-weight: bold;
+
+	transition: background-color var(--animation-def-time) ease-in-out,
+							color var(--animation-def-time) ease-in-out,
+							transform var(--animation-def-time) ease-in-out,
+							border var(--animation-def-time) ease-in-out;
+}
+.def-btn-inner-icon {
+  --w: clamp(1.5em, 2vw, 2em);
+  
+  width: var(--w);
+  height: var(--w);
+}
+
+/* Continue as guest button from Welcome Page */
+.continue-as-guest-btn {
+  color: var(--clr-def-white);
+  background-color: var(--clr-def-black);
+  border: 0.1em solid var(--clr-def-white);
+  border-radius: 0.5em;
+  padding: 1em 2em;
+}
+.continue-as-guest-btn:hover {
+  background-color: var(--clr-def-lightblue);
+  border-color: var(--clr-def-black);
+  color: var(--clr-def-black);
+}
+
+/* Join us button from Welcome Page */
+.join-us-btn {
+  color: var(--clr-def-white);
+  background-color: var(--clr-def-black);
+  border: 0.1em solid var(--clr-def-white);
+  border-radius: 1.5em;
+  padding: 1em 2em;
+}
+.join-us-btn:hover {
+  color: var(--clr-def-black);
+  background-color: var(--clr-def-lightgreen);
+  border-color: var(--clr-def-black);
+}
+
+/* Join button from Header */
+.header-btn {
+  color: var(--clr-def-black);
+  background-color: var(--clr-def-white);
+  border: 0.1em solid var(--clr-def-black);
+  border-radius: 1.5em;
+  padding: 0.5em 1em;
+}
+.header-btn:hover {
+  background-color: var(--clr-def-lightgreen);
+}
+.header-btn .def-btn-text {
+  padding: 0 2em;
+}
+
+/* Menu button from Header while small screen size */
+.header-menu-btn {
+  padding: 0.5em;
+  background-color: var(--clr-def-white);
+  border-radius: 0.1em;
+  border: none;
+}
+
+/* Button from Header Menu */
+.header-menu-inner-btn,
+.header-menu-close-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: none;
+  background-color: var(--clr-def-black);
+  color: var(--clr-def-white);
+  padding: 1em;
+  font-size: clamp(0.9em, 4vw, 1em);
+  font-weight: normal;
+}
+.header-menu-inner-btn {
+  width: 100%;
+}
+.header-menu-inner-btn:hover {
+  background-color: var(--clr-def-darkgray);
+}
+
+.header-menu-inner-icon {
+  margin-right: 0.5em;
+}
+
+/* Join button from Footer */
+.footer-btn {
+  font-size: 0.7em;
+
+  color: var(--clr-def-white);
+  background-color: var(--clr-def-black);
+  border: 0.1em solid var(--clr-def-white);
+  border-radius: 1.5em;
+  padding: 0.5em 1em;
+}
+.footer-btn:hover {
+  color: var(--clr-def-black);
+  border-color: var(--clr-def-black);
+  background-color: var(--clr-def-lightgreen);
+}
+.footer-btn .def-btn-text {
+  padding: 0 2em;
+}
+
+/* Choose category button for Form */
+.choose-category-form-btn,
+.choose-slots-form-btn,
+.add-tags-form-btn,
+.clear-form-btn,
+.create-form-btn {
+  padding: 1em 2em;
+  font-size: 0.8em;
+  border: 0.1em solid var(--clr-def-black);
+  border-radius: var(--rounded-input-border-radius);
+  background-color: var(--clr-def-black);
+  color: var(--clr-def-white);
+  width: var(--def-btn-w);
+}
+
+.choose-category-form-btn:hover {
+  background-color: var(--clr-def-lightblue);
+  color: var(--clr-def-black);
+}
+
+.choose-slots-form-btn {
+  width: calc(100% - var(--def-btn-w) - clamp(1em, 5%, 2em));
+}
+.choose-slots-form-btn:hover {
+  background-color: var(--clr-def-lightyellow);
+  color: var(--clr-def-black);
+}
+
+.add-tags-form-btn {
+  background-color: var(--clr-def-white);
+  color: var(--clr-def-black);
+  border-radius: calc(var(--rounded-input-border-radius) + 1em);
+}
+.add-tags-form-btn:hover {
+  background-color: var(--clr-def-black);
+  color: var(--clr-def-white);
+}
+
+.clear-form-btn,
+.create-form-btn {
+  padding: 1.5em 3em;
+}
+.clear-form-btn:hover {
+  background-color: var(--clr-def-lightred);
+  color: var(--clr-def-black);
+}
+
+.create-form-btn {
+  width: calc(100% - var(--def-btn-w) - clamp(1em, 5%, 2em));
+}
+.create-form-btn:hover {
+  background-color: var(--clr-def-lightgreen);
+  color: var(--clr-def-black);
+}
